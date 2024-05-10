@@ -13,8 +13,31 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		252F81DE58B27103FD8D4DBB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6D98FD025173D6B21C8AF87F /* PrivacyInfo.xcprivacy */; };
+		25C453592BEDC24D00227B6F /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453452BEDC24D00227B6F /* AntDesign.ttf */; };
+		25C4535A2BEDC24D00227B6F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453462BEDC24D00227B6F /* Entypo.ttf */; };
+		25C4535B2BEDC24D00227B6F /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453472BEDC24D00227B6F /* EvilIcons.ttf */; };
+		25C4535C2BEDC24D00227B6F /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453482BEDC24D00227B6F /* Feather.ttf */; };
+		25C4535D2BEDC24D00227B6F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453492BEDC24D00227B6F /* FontAwesome.ttf */; };
+		25C4535E2BEDC24D00227B6F /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4534A2BEDC24D00227B6F /* FontAwesome5_Brands.ttf */; };
+		25C4535F2BEDC24D00227B6F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4534B2BEDC24D00227B6F /* FontAwesome5_Regular.ttf */; };
+		25C453602BEDC24D00227B6F /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4534C2BEDC24D00227B6F /* FontAwesome5_Solid.ttf */; };
+		25C453612BEDC24D00227B6F /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4534D2BEDC24D00227B6F /* FontAwesome6_Brands.ttf */; };
+		25C453622BEDC24D00227B6F /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4534E2BEDC24D00227B6F /* FontAwesome6_Regular.ttf */; };
+		25C453632BEDC24D00227B6F /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C4534F2BEDC24D00227B6F /* FontAwesome6_Solid.ttf */; };
+		25C453642BEDC24D00227B6F /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453502BEDC24D00227B6F /* Fontisto.ttf */; };
+		25C453652BEDC24D00227B6F /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453512BEDC24D00227B6F /* Foundation.ttf */; };
+		25C453662BEDC24D00227B6F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453522BEDC24D00227B6F /* Ionicons.ttf */; };
+		25C453672BEDC24D00227B6F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453532BEDC24D00227B6F /* MaterialCommunityIcons.ttf */; };
+		25C453682BEDC24D00227B6F /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453542BEDC24D00227B6F /* MaterialIcons.ttf */; };
+		25C453692BEDC24D00227B6F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453552BEDC24D00227B6F /* Octicons.ttf */; };
+		25C4536A2BEDC24D00227B6F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453562BEDC24D00227B6F /* SimpleLineIcons.ttf */; };
+		25C4536B2BEDC24D00227B6F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C453572BEDC24D00227B6F /* Zocial.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-muslim_prayer_times-muslim_prayer_timesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-muslim_prayer_times-muslim_prayer_timesTests.a */; };
+		7FE5807382E0412D8BD09CFF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CB93AC0CAF946F1910F6D15 /* Poppins-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81DA644429DE4BBEB7348187 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D929F0CC4BFA486A9D10E4E7 /* Poppins-SemiBold.ttf */; };
+		8F3C74A7BBAC4007B07244DB /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A9A925B858E4F31ABD268B8 /* Poppins-Medium.ttf */; };
+		AA7C9F2516E747B8B58FACBD /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F18B613DF8D4346BF0B83AB /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +62,36 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = muslim_prayer_times/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = muslim_prayer_times/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-muslim_prayer_times-muslim_prayer_timesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-muslim_prayer_times-muslim_prayer_timesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C453452BEDC24D00227B6F /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		25C453462BEDC24D00227B6F /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		25C453472BEDC24D00227B6F /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		25C453482BEDC24D00227B6F /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		25C453492BEDC24D00227B6F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		25C4534A2BEDC24D00227B6F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		25C4534B2BEDC24D00227B6F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		25C4534C2BEDC24D00227B6F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		25C4534D2BEDC24D00227B6F /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		25C4534E2BEDC24D00227B6F /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		25C4534F2BEDC24D00227B6F /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		25C453502BEDC24D00227B6F /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		25C453512BEDC24D00227B6F /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		25C453522BEDC24D00227B6F /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		25C453532BEDC24D00227B6F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		25C453542BEDC24D00227B6F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		25C453552BEDC24D00227B6F /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		25C453562BEDC24D00227B6F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		25C453572BEDC24D00227B6F /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-muslim_prayer_times.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muslim_prayer_times.debug.xcconfig"; path = "Target Support Files/Pods-muslim_prayer_times/Pods-muslim_prayer_times.debug.xcconfig"; sourceTree = "<group>"; };
+		3F18B613DF8D4346BF0B83AB /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-muslim_prayer_times.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muslim_prayer_times.release.xcconfig"; path = "Target Support Files/Pods-muslim_prayer_times/Pods-muslim_prayer_times.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-muslim_prayer_times-muslim_prayer_timesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muslim_prayer_times-muslim_prayer_timesTests.debug.xcconfig"; path = "Target Support Files/Pods-muslim_prayer_times-muslim_prayer_timesTests/Pods-muslim_prayer_times-muslim_prayer_timesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-muslim_prayer_times.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-muslim_prayer_times.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D98FD025173D6B21C8AF87F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = muslim_prayer_times/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6A9A925B858E4F31ABD268B8 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		6CB93AC0CAF946F1910F6D15 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		6D98FD025173D6B21C8AF87F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = muslim_prayer_times/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = muslim_prayer_times/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-muslim_prayer_times-muslim_prayer_timesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muslim_prayer_times-muslim_prayer_timesTests.release.xcconfig"; path = "Target Support Files/Pods-muslim_prayer_times-muslim_prayer_timesTests/Pods-muslim_prayer_times-muslim_prayer_timesTests.release.xcconfig"; sourceTree = "<group>"; };
+		D929F0CC4BFA486A9D10E4E7 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,9 +132,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		01E2DAA4A2004830BFCE896A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CB93AC0CAF946F1910F6D15 /* Poppins-Bold.ttf */,
+				6A9A925B858E4F31ABD268B8 /* Poppins-Medium.ttf */,
+				3F18B613DF8D4346BF0B83AB /* Poppins-Regular.ttf */,
+				D929F0CC4BFA486A9D10E4E7 /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* muslim_prayer_times */ = {
 			isa = PBXGroup;
 			children = (
+				25C453582BEDC24D00227B6F /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -99,6 +157,33 @@
 				6D98FD025173D6B21C8AF87F /* PrivacyInfo.xcprivacy */,
 			);
 			name = muslim_prayer_times;
+			sourceTree = "<group>";
+		};
+		25C453582BEDC24D00227B6F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25C453452BEDC24D00227B6F /* AntDesign.ttf */,
+				25C453462BEDC24D00227B6F /* Entypo.ttf */,
+				25C453472BEDC24D00227B6F /* EvilIcons.ttf */,
+				25C453482BEDC24D00227B6F /* Feather.ttf */,
+				25C453492BEDC24D00227B6F /* FontAwesome.ttf */,
+				25C4534A2BEDC24D00227B6F /* FontAwesome5_Brands.ttf */,
+				25C4534B2BEDC24D00227B6F /* FontAwesome5_Regular.ttf */,
+				25C4534C2BEDC24D00227B6F /* FontAwesome5_Solid.ttf */,
+				25C4534D2BEDC24D00227B6F /* FontAwesome6_Brands.ttf */,
+				25C4534E2BEDC24D00227B6F /* FontAwesome6_Regular.ttf */,
+				25C4534F2BEDC24D00227B6F /* FontAwesome6_Solid.ttf */,
+				25C453502BEDC24D00227B6F /* Fontisto.ttf */,
+				25C453512BEDC24D00227B6F /* Foundation.ttf */,
+				25C453522BEDC24D00227B6F /* Ionicons.ttf */,
+				25C453532BEDC24D00227B6F /* MaterialCommunityIcons.ttf */,
+				25C453542BEDC24D00227B6F /* MaterialIcons.ttf */,
+				25C453552BEDC24D00227B6F /* Octicons.ttf */,
+				25C453562BEDC24D00227B6F /* SimpleLineIcons.ttf */,
+				25C453572BEDC24D00227B6F /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -127,6 +212,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				01E2DAA4A2004830BFCE896A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -246,9 +332,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C453602BEDC24D00227B6F /* FontAwesome5_Solid.ttf in Resources */,
+				25C453652BEDC24D00227B6F /* Foundation.ttf in Resources */,
+				25C4536A2BEDC24D00227B6F /* SimpleLineIcons.ttf in Resources */,
+				25C4535F2BEDC24D00227B6F /* FontAwesome5_Regular.ttf in Resources */,
+				25C4536B2BEDC24D00227B6F /* Zocial.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				25C4535C2BEDC24D00227B6F /* Feather.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				252F81DE58B27103FD8D4DBB /* PrivacyInfo.xcprivacy in Resources */,
+				25C4535B2BEDC24D00227B6F /* EvilIcons.ttf in Resources */,
+				25C4535E2BEDC24D00227B6F /* FontAwesome5_Brands.ttf in Resources */,
+				7FE5807382E0412D8BD09CFF /* Poppins-Bold.ttf in Resources */,
+				25C453692BEDC24D00227B6F /* Octicons.ttf in Resources */,
+				8F3C74A7BBAC4007B07244DB /* Poppins-Medium.ttf in Resources */,
+				25C453642BEDC24D00227B6F /* Fontisto.ttf in Resources */,
+				25C453672BEDC24D00227B6F /* MaterialCommunityIcons.ttf in Resources */,
+				25C453612BEDC24D00227B6F /* FontAwesome6_Brands.ttf in Resources */,
+				AA7C9F2516E747B8B58FACBD /* Poppins-Regular.ttf in Resources */,
+				25C453592BEDC24D00227B6F /* AntDesign.ttf in Resources */,
+				25C4535A2BEDC24D00227B6F /* Entypo.ttf in Resources */,
+				81DA644429DE4BBEB7348187 /* Poppins-SemiBold.ttf in Resources */,
+				25C453662BEDC24D00227B6F /* Ionicons.ttf in Resources */,
+				25C4535D2BEDC24D00227B6F /* FontAwesome.ttf in Resources */,
+				25C453682BEDC24D00227B6F /* MaterialIcons.ttf in Resources */,
+				25C453632BEDC24D00227B6F /* FontAwesome6_Solid.ttf in Resources */,
+				25C453622BEDC24D00227B6F /* FontAwesome6_Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
