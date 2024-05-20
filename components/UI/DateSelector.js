@@ -10,7 +10,6 @@ import Color from '../../utils/Color';
 const DateSelector = ({selectedDate, setDate}) => {
   // Screen state
   const [open, setOpen] = useState(false);
-
   return (
     <View>
       <Pressable onPress={() => setOpen(true)}>

@@ -1,7 +1,13 @@
 import {useEffect, useRef} from 'react';
 import {StyleSheet, View, Image, Dimensions, Text} from 'react-native';
+import LottieView from 'lottie-react-native';
+
+// Utils
 import {scale} from '../../utils/Scale';
 import Color from '../../utils/Color';
+
+// Components
+import AsmaAlHusna from '../../components/card/AsmaAlHusna';
 
 const SplashScreen = () => {
   // Animation config
@@ -13,39 +19,24 @@ const SplashScreen = () => {
 
   return (
     <View style={styles.screen}>
-      {/* Splash scrren image */}
       <View>
-        {/* Title */}
-        <Text style={styles.title}>Prayer Times</Text>
-        {/* Splash screen Image */}
-        <Image
-          style={styles.image}
-          source={require('../../assets/images/prayer_rug.png')}
-          resizeMode="contain"
-        />
-        {/* Subtitle */}
-        <Text style={styles.subtitle}>Qibla Direction and Prayer Times</Text>
+        <AsmaAlHusna />
       </View>
-
-      {/* Loadin Animation Conatiner */}
-      {/* <View style={styles.animationContainer}>
-        <LottieView
-          ref={animation}
-          style={styles.animation}
-          source={require('../../assets/animations/f.lottie')}
-          autoPlay
-          loop
-        />
-        <Text
-          style={{
-            color: Color.gray_400,
-            textAlign: 'center',
-            fontFamily: 'Poppins-Regular',
-            paddingBottom: scale(10),
-          }}>
-          Please wait
-        </Text>
-      </View> */}
+      <View style={styles.animationContainer}>
+        <View>
+          <LottieView
+            ref={animation}
+            style={styles.animation}
+            source={require('../../assets/animations/loading.lottie')}
+            autoPlay
+            loop
+          />
+        </View>
+        <View style={styles.animationTextBox}>
+          <Text style={styles.animationText}>Geting Your Location</Text>
+          <Text style={styles.animationText}>Calculating Prayer Times</Text>
+        </View>
+      </View>
     </View>
   );
 };
@@ -60,25 +51,26 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
-    paddingHorizontal: scale(10),
-    backgroundColor: Color.primary_shade_10,
+    backgroundColor: Color.white,
   },
-  title: {
-    fontSize: scale(40),
-    fontFamily: 'Poppins-Medium',
-    textAlign: 'center',
-    color: Color.gray_300,
-  },
-  subtitle: {
-    fontSize: scale(20),
-    fontFamily: 'Poppins-Medium',
-    textAlign: 'center',
-    lineHeight: scale(28),
-    color: Color.gray_400,
-  },
-  image: {
+  animationContainer: {
+    position: 'absolute',
     alignSelf: 'center',
-    height: scale(260),
-    position: 'relative',
+    bottom: '2%',
+  },
+  animation: {
+    width: scale(300),
+    height: scale(200),
+    // backgroundColor: Color.red,
+  },
+  animationTextBox: {
+    position: 'absolute',
+    alignSelf: 'center',
+    bottom: '8%',
+  },
+  animationText: {
+    color: Color.black,
+    fontFamily: 'Poppins-Medium',
+    textAlign: 'center',
   },
 });

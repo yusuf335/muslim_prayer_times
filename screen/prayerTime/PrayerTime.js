@@ -14,6 +14,8 @@ import moment from 'moment';
 import GetLocation from 'react-native-get-location';
 import LottieView from 'lottie-react-native';
 import notifee, {TriggerType} from '@notifee/react-native';
+import {useDispatch} from 'react-redux';
+import {loaded} from '../../store/isLoadingSlice';
 
 // Utils
 import {scale} from '../../utils/Scale';
@@ -43,11 +45,13 @@ const PrayerTime = () => {
 
   // Google Map API
 
+  // Redux
+  const dispatch = useDispatch();
+
   // Screen state
   const [date, setDate] = useState(new Date());
   const [currentPrayer, setCurrentPrayer] = useState({});
   const [nextPrayer, setNextPrayer] = useState({});
-  const [nextPrayerTime, setNextPrayerTime] = useState(0);
   const [coordinate, setCoordinate] = useState({});
   const [timeZone, setTimeZone] = useState('');
   const [calculationMethod, setCalculationMethod] = useState({});
@@ -65,15 +69,10 @@ const PrayerTime = () => {
     animation.current?.play();
   }, []);
 
-  // Create a time-based trigger
-  const trigger = {
-    type: TriggerType.TIMESTAMP,
-    timestamp: new Date(), // fire at 11:10am (10 minutes before meeting)
-  };
-
   // Get user location
   useEffect(() => {
     setGetLocation(false);
+    // dispatch(isLoading());
     GetLocation.getCurrentPosition({
       enableHighAccuracy: true,
       timeout: 60000,
@@ -90,13 +89,6 @@ const PrayerTime = () => {
         console.log(code, message);
       });
   }, []);
-
-  // useEffect(() => {
-  //   const notification = async () => {
-  //     await notifee.requestPermission();
-  //   };
-  //   notification();
-  // }, []);
 
   // Fetching data from api
   useEffect(() => {
@@ -204,6 +196,7 @@ const PrayerTime = () => {
       setTimeout(
         () => {
           setIsCalculated(true);
+          dispatch(loaded());
         },
         secondsDifference < 0 ? secondsDifference : 0,
       );
